@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politica de Privacidad - RecordAR</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #8b5cf6;
+      --accent-2: #f59e0b;
+      --border: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(139, 92, 246, 0.18), transparent 30%),
+        linear-gradient(180deg, #020617 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+
+    .hero {
+      background: rgba(17, 24, 39, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.28);
+    }
+
+    h1, h2 {
+      margin: 0 0 12px;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      margin-top: 28px;
+      font-size: 1.2rem;
+      color: #fff;
+    }
+
+    p, li {
+      color: var(--text);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .card {
+      background: rgba(17, 24, 39, 0.88);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #c4b5fd;
+    }
+
+    .brand {
+      display: inline-block;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    .brand .ar {
+      color: var(--accent-2);
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="brand">Record<span class="ar">AR</span></div>
+      <h1>Politica de Privacidad</h1>
+      <p class="muted">Ultima actualizacion: 2026-03-12</p>
+      <p>
+        Esta politica explica que datos recopila <strong>RecordAR</strong>,
+        como se usan y que opciones tiene el usuario al utilizar la aplicacion.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>1. Introduccion</h2>
+      <p>
+        RecordAR es una aplicacion movil que permite crear recuerdos multimedia
+        vinculados a codigos QR. Esta politica explica que datos se recopilan,
+        como se usan y que opciones tiene el usuario.
+      </p>
+
+      <h2>2. Datos que recopilamos</h2>
+      <p>RecordAR puede recopilar y procesar los siguientes datos:</p>
+      <ul>
+        <li>Datos de autenticacion proporcionados por Google, como nombre, correo electronico e identificador de usuario.</li>
+        <li>Contenido creado por el usuario dentro de la app, como titulo, descripcion y archivos o enlaces asociados a un recuerdo.</li>
+        <li>Identificadores tecnicos necesarios para el funcionamiento del servicio.</li>
+        <li>Contadores de escaneo asociados a cada recuerdo.</li>
+      </ul>
+
+      <h2>3. Como usamos la informacion</h2>
+      <p>Usamos la informacion para:</p>
+      <ul>
+        <li>permitir el inicio de sesion y la identificacion del usuario</li>
+        <li>guardar y mostrar recuerdos creados por el usuario</li>
+        <li>asociar recuerdos a codigos QR</li>
+        <li>mostrar un recuerdo cuando un QR es escaneado</li>
+        <li>contar la cantidad de escaneos de cada recuerdo</li>
+        <li>mantener la seguridad y operacion basica del servicio</li>
+      </ul>
+
+      <h2>4. Almacenamiento y proveedores</h2>
+      <p>
+        RecordAR utiliza servicios de Firebase, proporcionados por Google, para
+        operar funciones como autenticacion, base de datos, almacenamiento y
+        servicios asociados.
+      </p>
+      <p>Dependiendo del uso de la aplicacion, los datos pueden almacenarse en:</p>
+      <ul>
+        <li>Firebase Authentication</li>
+        <li>Cloud Firestore</li>
+        <li>Firebase Storage</li>
+        <li>Cloud Functions</li>
+      </ul>
+
+      <h2>5. Visibilidad del contenido</h2>
+      <p>
+        En la version actual del servicio, los recuerdos asociados a un codigo QR
+        pueden ser visibles para usuarios autenticados que escaneen ese codigo.
+      </p>
+      <p>
+        Esto significa que el contenido no funciona como informacion estrictamente
+        privada por propietario en todos los casos.
+      </p>
+
+      <h2>6. Permisos del dispositivo</h2>
+      <p>La aplicacion puede solicitar permisos del dispositivo para:</p>
+      <ul>
+        <li>usar la camara para escanear codigos QR</li>
+        <li>acceder a imagenes o archivos del dispositivo para crear recuerdos</li>
+      </ul>
+      <p>Estos permisos se usan solo para las funciones solicitadas por el usuario.</p>
+
+      <h2>7. Comparticion de datos</h2>
+      <p>No vendemos informacion personal.</p>
+      <p>
+        Los datos se comparten unicamente con proveedores de infraestructura
+        necesarios para operar la aplicacion, principalmente Google Firebase, o
+        cuando exista obligacion legal.
+      </p>
+
+      <h2>8. Conservacion de datos</h2>
+      <p>
+        Los datos se conservan mientras sean necesarios para operar la cuenta y los
+        recuerdos del usuario, salvo que el usuario solicite su eliminacion o la ley
+        exija otra cosa.
+      </p>
+
+      <h2>9. Seguridad</h2>
+      <p>
+        Aplicamos reglas de acceso y controles tecnicos sobre los datos almacenados.
+        Sin embargo, ningun sistema es completamente infalible y no se puede
+        garantizar seguridad absoluta.
+      </p>
+
+      <h2>10. Derechos del usuario</h2>
+      <p>
+        El usuario puede solicitar informacion o gestion relacionada con sus datos
+        personales escribiendo al correo de soporte indicado al final de esta pagina.
+      </p>
+
+      <h2>11. Menores de edad</h2>
+      <p>
+        RecordAR no esta dirigida especificamente a menores de edad. Si detectamos
+        uso indebido en contra de la normativa aplicable, podremos tomar medidas
+        razonables.
+      </p>
+
+      <h2>12. Cambios a esta politica</h2>
+      <p>
+        Esta politica puede actualizarse en cualquier momento. La version vigente
+        sera la publicada en la URL oficial de la politica de privacidad.
+      </p>
+
+      <h2>13. Contacto</h2>
+      <p>Correo de soporte: <a href="mailto:sagelvezg@gmail.com">sagelvezg@gmail.com</a></p>
+      <p>Responsable: Sergio Galvez</p>
+    </section>
+  </main>
+</body>
+</html>
